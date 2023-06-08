@@ -2,11 +2,11 @@ import pandas as pd
 import json
 import os
 
-path = '/Users/Hugo/Desktop/Research/Research/Cosponsor'
+path = 'null'
 dirs = os.listdir(path)
 
 
-js_folder_path=os.path.join('/Users', 'Hugo', 'Desktop', 'Research', 'Research', 'Cosponsor')
+js_folder_path=os.path.join('null')
 
 js = [x for x in dirs if x.endswith('.json')]
 for js in js:
