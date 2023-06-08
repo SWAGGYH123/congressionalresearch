@@ -2,7 +2,7 @@ import pandas as pd
 import json
 import os
 
-path = '/Users/Hugo/Desktop/Research/Research/Bills'
+path = 'null'
 dirs = os.listdir(path)
 
 
