@@ -3,10 +3,10 @@ import json
 import os
 from collections import Counter
 
-path = '/Users/Hugo/Desktop/Research/Research/Cosponsor'
+path = 'null'
 dirs = os.listdir(path)
 
-js_folder_path=os.path.join('/Users', 'Hugo', 'Desktop', 'Research', 'Research', 'Cosponsor')
+js_folder_path=os.path.join('null')
 
 average111 = Counter()
 average112=Counter()
