@@ -5,7 +5,7 @@ import sys
 
 sys.setrecursionlimit((10**5))
 
-api_key=["FSCA2C5X7hRZoVOwi8BCfEXtHwgfdSgPrtwOu7a4","vydf7CegTv33TKBbnwvpQewlYr4JZj0eN8M4FfuL","9rcbF2pb0s8yjSLsrxVbhBRZnLMUeSZMZbd8gvdQ","EyRlJX4I6NxixGDc4MkgmYYyXEzaycRNPdC2xJ94","zmyfV3l1bl3yKl5aEedRK2fRdsda0n70raIWUqbg","KxcZ5qgCc5J5HRzjXTyrYstElMApwhII9kc3sYc6","TcugNhb2j79pp90VXufVsWsAZMvMuaY9dYL8CI8h","uIS0M4IEKFQTrVYKYHTAe6GhzzJerVyukLNnu9yk","cwBvd3YwxOyaMRZwjfD42QwrOdQscsNfaNmgbWDk", "xsDjvNP2dOsymG7KnNpU162cebXLhJVCy9hnKeGf","BDpeski1RMWicesQJxjITW78WpO47Pr9c9V4NQ6j","gB3QjiqwP8T5riJGkt6eJWZIAeGwUhbZMjkmacCW","5s7cUS87p2RRIJItDE4sQEBsqKqIPb3bsMOWYuzr","LEebtLpIElrV7bOAq4Qjt8erURgY0dSHryRsGetu","7TXfidk6qUh7Tq1hbKybfTFKAyWVbBaEKlGCMTjr","Bu0874sptMqfCOErxtA2a0e65AnfKUVpiAglyf6u","0DFqr6VsceuwVwOEiYg1uTRLZRLVsLT1mFxAUBTA","kubvZx6ebSo14vjNdXvwucvgoSw9ToJnCzXmpmab","apgKUtNatxMUGZFbSFDzf2ULCCw0i8xvs6pzkq7P","zcdtcKgMYFJxruQnYsOomd0j7TtG5LZ5SCLv5JwN"]
+api_key=[null]
 
 def json_scrape_hr_bills(cong, num, n,x):
     response = requests.get(f'https://api.congress.gov/v3/bill/{cong}/hr/{num}?api_key={api_key[x]}')
