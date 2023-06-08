@@ -6,7 +6,7 @@ path = 'null'
 dirs = os.listdir(path)
 
 
-js_folder_path=os.path.join('/Users', 'Hugo', 'Desktop', 'Research', 'Research', 'Bills')
+js_folder_path=os.path.join('null')
 
 js = [x for x in dirs if x.endswith('.json')]
 for js in js:
