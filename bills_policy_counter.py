@@ -3,11 +3,11 @@ import json
 import os
 from collections import Counter
 
-path = '/Users/Hugo/Desktop/Research/Research/Bills'
+path = 'null'
 dirs = os.listdir(path)
 
 
-js_folder_path=os.path.join('/Users', 'Hugo', 'Desktop', 'Research', 'Research', 'Bills')
+js_folder_path=os.path.join('null')
 counter111 = Counter()
 counter112=Counter()
 counter113=Counter()
