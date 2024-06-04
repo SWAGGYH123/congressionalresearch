@@ -1,6 +1,8 @@
 import os
 import json
 
+#written with the help of Joel Osher
+
 DIR = os.curdir + "/Cosponsor/"
 
 path = os.listdir(DIR)
